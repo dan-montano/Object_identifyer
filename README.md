@@ -1,9 +1,9 @@
 # SCR Deteccion de Objetos con Tensorflow 2.0
 SCR es un algoritmo que utiliza redes neuronales convolucionales para detectar objetos <br> <br>
 
-## Getting started
+## Instrucciones
 
-### Prerequisites
+### Prerequisitos
 Este proyecto esta escrito en Python 3.7 usando Tensorflow 2.0 (deep learning), NumPy, Pillow, OpenCV, seaborn, Flask, urllib (get images fron android app). Para intalar los prerequisitos ejecute el siguiente comando.
 
 ```
@@ -29,7 +29,7 @@ python load_weights.py
 ```
 
 ## Corriendo el servicio
-Puedes correr el servicio usando `SCR.py` script. El script trabaja con 'streaming cam' en modo DEBUG. version de prueba.
+Puedes correr el servicio usando `SCR.py`. El script trabaja con 'streaming cam', obteniendo imagenes de una direccion IP especifica, en modo DEBUG. Dentro de local host.
 ### Uso
 ```
 python SCR.py 
